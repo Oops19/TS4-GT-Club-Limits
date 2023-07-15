@@ -28,11 +28,11 @@ class ModInfo(CommonModInfo):
 
     @property
     def _version(self) -> str:
-        return '1.1.0'
+        return '1.2.0'
 
 
 """
-1.1.0
+1.2.0
     Remove TS4/Mods/gtcl.ts4script (empty file to replace old name)
     Remove TS4/Mods/gt_club_limits.ts4script (empty file to replace old name)
 1.0.9
