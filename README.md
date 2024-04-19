@@ -55,12 +55,14 @@ This mod has been tested with `The Sims 4` 1.98.158 (2023-06), S4CL 2.7 (2023-06
 It is expected to be compatible with many upcoming releases of TS4, S4CL and TS4Lib.
 
 ## Dependencies
-* [The Sims 4](https://www.ea.com/games/the-sims/the-sims-4)
+Download the ZIP file, not the sources.
+* [This Mod](../../releases/latest)
+* [TS4-Library](https://github.com/Oops19/TS4-Library/releases/latest)
 * [S4CL](https://github.com/ColonolNutty/Sims4CommunityLibrary/releases/latest)
-* [TS4Lib](https://github.com/Oops19/TS4-Library/releases/latest)
+* [The Sims 4](https://www.ea.com/games/the-sims/the-sims-4)
 
 If not installed download and install TS4 and these mods.
-All are available for free.
+All downloads are available for free.
 
 ## Installation
 * Locate the localized `The Sims 4` folder which contains the `Mods` folder.
