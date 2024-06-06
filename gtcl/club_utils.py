@@ -34,7 +34,7 @@ from sims4communitylib.utils.sims.common_sim_utils import CommonSimUtils
 from ui.ui_dialog_picker import ObjectPickerRow
 from world.region import get_region_instance_from_zone_id
 
-log: CommonLog = CommonLogRegistry.get().register_log(f"{ModInfo.get_identity().name}", ModInfo.get_identity().name)
+log: CommonLog = CommonLogRegistry.get().register_log(ModInfo.get_identity(), ModInfo.get_identity().name)
 log.enable()
 
 

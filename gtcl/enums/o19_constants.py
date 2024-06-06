@@ -6,7 +6,7 @@
 
 import os
 
-from guids.modinfo import ModInfo
+from gtcl.modinfo import ModInfo
 
 from ts4lib.libraries.ts4folders import TS4Folders
 

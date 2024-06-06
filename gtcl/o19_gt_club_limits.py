@@ -3,6 +3,7 @@
 # © 2022 https://github.com/Oops19
 #
 
+
 import ast
 import os
 
@@ -14,10 +15,10 @@ from gtcl.modinfo import ModInfo
 from sims4.math import MAX_INT32
 
 from sims4communitylib.utils.common_injection_utils import CommonInjectionUtils
-from sims4communitylib.utils.common_log_registry import CommonLogRegistry, CommonLog
+from sims4communitylib.utils.common_log_registry import CommonLog, CommonLogRegistry
 
 
-log: CommonLog = CommonLogRegistry.get().register_log(f"{ModInfo.get_identity().name}", ModInfo.get_identity().name)
+log: CommonLog = CommonLogRegistry.get().register_log(ModInfo.get_identity(), ModInfo.get_identity().name)
 log.enable()
 log.debug(f"Starting {ModInfo.get_identity().name} v{ModInfo.get_identity().version} ")
 

@@ -1,4 +1,4 @@
-#  GetTogether Club Limits for TS4
+# GetTogether Club Limits for TS4
 The mod removes various GT club limits.
 
 It will not break with every TS4 update as it is script based. So there will be usually no new release after a TS4 update.
@@ -51,7 +51,7 @@ With `NO_CLUB_REQUIREMENTS_VALIDATION: True` everyone should be able to join the
 # Addendum
 
 ## Game compatibility
-This mod has been tested with `The Sims 4` 1.98.158 (2023-06), S4CL 2.7 (2023-06), TS4Lib 0.0.24 (2023-06).
+This mod has been tested with `The Sims 4` 1.107.112, S4CL 3.4, TS4Lib 0.3.20 (2024-05).
 It is expected to be compatible with many upcoming releases of TS4, S4CL and TS4Lib.
 
 ## Dependencies
@@ -62,7 +62,7 @@ Download the ZIP file, not the sources.
 * [The Sims 4](https://www.ea.com/games/the-sims/the-sims-4)
 
 If not installed download and install TS4 and these mods.
-All downloads are available for free.
+All are available for free.
 
 ## Installation
 * Locate the localized `The Sims 4` folder which contains the `Mods` folder.
@@ -87,7 +87,7 @@ Some log entries in the log file ('mod_logs' folder) may contain the local usern
 [Donations](https://www.patreon.com/o19)
 
 ## Copyright and License
-* © 2023 [Oops19](https://github.com/Oops19)
+* © 2024 [Oops19](https://github.com/Oops19)
 * License for '.package' files: [Electronic Arts TOS for UGC](https://tos.ea.com/legalapp/WEBTERMS/US/en/PC/)  
 * License for other media unless specified differently: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) unless the Electronic Arts TOS for UGC overrides it.
 This allows you to use this mod and re-use the code even if you don't own The Sims 4.

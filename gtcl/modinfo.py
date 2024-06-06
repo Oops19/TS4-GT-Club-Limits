@@ -28,26 +28,33 @@ class ModInfo(CommonModInfo):
 
     @property
     def _version(self) -> str:
-        return '1.2.0'
+        return '1.2.2'
 
 
 """
-1.2.0
+v.2.2
+    Improved logging.
+v1.2.1
+    Updated README for new TS4 version
+v1.2.0
     Remove TS4/Mods/gtcl.ts4script (empty file to replace old name)
     Remove TS4/Mods/gt_club_limits.ts4script (empty file to replace old name)
-1.0.9
+v1.0.9
     Updated documentation.
-1.0.8.2
+v1.0.8.2
     Add 'Clubs'>'Points'
     'o19.gtcl.print' logs more information
     Add to doc: 'o19.gtcl.' + 'start', 'lead',  'join',  'invite',  'delete', 'print' 
-1.0.8.1
+v1.0.8.1
     Fixed notification - X not Y has created club.
-1.0.8
+v1.0.8
     Rename folders to 'gtcl' (from 'gt_club_limits')
-1.0.7
+v1.0.7
     New 'Clubs'>'Start gathering' etc. interactions
-1.0.6 Fixed a few typos and PEP warnings.
-1.0.4 Fixed GTW strings.
-1.0.2 TS4 folders are now detected differently.
+v1.0.6
+    Fixed a few typos and PEP warnings.
+v1.0.4
+    Fixed GTW strings.
+v1.0.2
+    TS4 folders are now detected differently.
 """
