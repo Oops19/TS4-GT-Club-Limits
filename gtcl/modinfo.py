@@ -9,7 +9,7 @@ class ModInfo(CommonModInfo):
     @property
     def _name(self) -> str:
         # This is the name that'll be used whenever a Messages.txt or Exceptions.txt file is created <_name>_Messages.txt and <_name>_Exceptions.txt.
-        return 'GT_Club_Limits'
+        return 'GT-ClubLimits'
 
     @property
     def _author(self) -> str:
@@ -32,7 +32,7 @@ class ModInfo(CommonModInfo):
 
 
 """
-v.2.2
+v1.2.2
     Improved logging.
 v1.2.1
     Updated README for new TS4 version
