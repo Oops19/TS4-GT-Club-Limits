@@ -1,0 +1,232 @@
+<h1>GetTogether Club Limits for TS4</h1>
+The mod removes various GT club limits.<br/>
+<br/>
+It will not break with every TS4 update as it is script based. So there will be usually no new release after a TS4 update.<br/>
+<br/>
+<h3>Configuration</h3>
+After startup the mod writes a new configuration template to <i>The Sims 4/mod_data/gt_club_limits/clubs.ini.current.ini</i>. This file can be copied to <i>clubs.ini</i> and modified to change the default settings.<br/>
+There is no PIE menu to change the settings.<br/>
+<br/>
+<h5>PIE menu options</h5>
+PIE menu options to<br/>
+<ul>
+	<li>Join an existing or new clubs (*1)</li>
+	<li>Delete existing clubs (*1)</li>
+	<li>Become the leader of a club</li>
+	<li>Invite multiple sims to a club (up to 100 per invitation, use this with care)</li>
+	<li>Start a club gathering (While at work one can not join an active gathering.)</li>
+	<li>Add 10,000 points to a club</li>
+</ul>
+<br/>
+(*1) With the UI not updating properly the active sim itself can not delete its own clubs or join a new one. Click on any other random sim for these interactions.<br/>
+A new club is always named 'o19'. Switch to the sim who is the owner of the new club to configure it as usual (name, description, rules, ...).<br/>
+<br/>
+<h5>Cheat Commands</h5>
+For testing purposes cheats have been added, they affect the active sim.<br/>
+<ul>
+	<li>`GT_Club_Limits.help</i> - Print and log the following cheat commands:</li>
+	<li>`o19.gtcl.join</i> - Join an existing club</li>
+	<li>`o19.gtcl.delete</i> - Delete existing clubs (*1)</li>
+	<li>`o19.gtcl.lead</i> - Become the leader of a club</li>
+	<li>`o19.gtcl.invite</i> - Invite multiple sims to a club</li>
+	<li>`o19.gtcl.start</i> - Start a club gathering</li>
+	<li>`o19.gtcl.points</i> - Add 10,000 points to a club</li>
+	<li>`o19.gtcl.print</i> - Write all club names and leaders to the log file</li>
+</ul>
+<br/>
+<h5>Maximum number of Sims that can be in a single Club.</h5>
+As soons as Sim is in 3 Clubs it can not create a new Club, but it still can join Clubs or other household Sims can add it to a Club.<br/>
+<br/>
+<i>MAX_MEMBERS_UNLIMITED:  True</i> can be set to <i>MAX_MEMBERS_UNLIMITED:  False</i> and then the <i>MAX_CLUB_MEMBERS</i> can be set. The default removes all limits.<br/>
+<br/>
+<h5>Maximum number of Clubs a Sim can be a member of</h5>
+The number of Clubs can be limited. Depending on the screen resolution and settings about 9 clubs can be displayed without a scroll-bar.<br/>
+<br/>
+<i>MAX_CLUBS_UNLIMITED:  True</i> can be set to <i>MAX_CLUBS_UNLIMITED:  False</i> and then the <i>MAX_CLUBS</i> can be set. The default removes all limits.<br/>
+<br/>
+<h5>Zones for Club gatherings</h5>
+With <i>NO_CLUB_ZONE_VALIDATION:  True</i> all zones should be accepted to start a club gathering. This can be disabled with <i>NO_CLUB_ZONE_VALIDATION: False</i>.<br/>
+<br/>
+<h5>Club Requirements</h5>
+With <i>NO_CLUB_REQUIREMENTS_VALIDATION: True</i> everyone should be able to join the club. This can be disabled with <i>NO_CLUB_REQUIREMENTS_VALIDATION: False</i>. It may allow to add non-humans to clubs.<br/>
+<br/>
+<br/>
+<br/>
+<h1>Addendum</h1>
+<br/>
+<h2>Game compatibility</h2>
+This mod has been tested with <i>The Sims 4</i> 1.111.102, S4CL 3.9, TS4Lib 0.3.33.<br/>
+It is expected to be compatible with many upcoming releases of TS4, S4CL and TS4Lib.<br/>
+<br/>
+<h2>Dependencies</h2>
+Download the ZIP file, not the sources.<br/>
+<ul>
+	<li><a href='../../releases/latest'>This Mod</a></li>
+	<li><a href='https://github.com/Oops19/TS4-Library/releases/latest'>TS4-Library</a></li>
+	<li><a href='https://github.com/ColonolNutty/Sims4CommunityLibrary/releases/latest'>S4CL</a></li>
+	<li><a href='https://www.ea.com/games/the-sims/the-sims-4'>The Sims 4</a></li>
+</ul>
+<br/>
+If not installed download and install TS4 and these mods.<br/>
+All are available for free.<br/>
+<br/>
+<h2>Installation</h2>
+<ul>
+	<li>Locate the localized <i>The Sims 4</i> folder which contains the <i>Mods</i> folder.</li>
+	<li>Extract the ZIP file into this <i>The Sims 4</i> folder.</li>
+	<li>It will create the directories/files <i>Mods/_o19_/$mod_name.ts4script`, <i>Mods/_o19_/$mod_name.package`, <i>mod_data/$mod_name/*</i> and/or <i>mod_documentation/$mod_name/*`</li>
+	<li>`mod_logs/$mod_name.txt</i> will be created as soon as data is logged.</li>
+</ul>
+<br/>
+<h3>Manual Installation</h3>
+If you don't want to extract the ZIP file into <i>The Sims 4</i> folder you might want to read this.<br/>
+<ul>
+	<li>The files in <i>ZIP-File/mod_data</i> are usually required and should be extracted to <i>The Sims 4/mod_data`.</li>
+	<li>The files in <i>ZIP-File/mod_documentation</i> are for you to read it. They are not needed to use this mod.</li>
+	<li>The <i>Mods/_o19_/*.ts4script</i> files can be stored in a random folder within <i>Mods</i> or directly in <i>Mods</i>. I highly recommend to store it in <i>_o19_</i> so you know who created it.</li>
+</ul>
+<br/>
+<h2>Usage Tracking / Privacy</h2>
+This mod does not send any data to tracking servers. The code is open source, not obfuscated, and can be reviewed.<br/>
+<br/>
+Some log entries in the log file ('mod_logs' folder) may contain the local username, especially if files are not found (WARN, ERROR).<br/>
+<br/>
+<h2>External Links</h2>
+<a href='https://github.com/Oops19/'>Sources</a><br/>
+<a href='https://discord.gg/d8X9aQ3jbm'>Support</a><br/>
+<a href='https://www.patreon.com/o19'>Donations</a><br/>
+<br/>
+<h2>Copyright and License</h2>
+<ul>
+	<li>© 2024 <a href='https://github.com/Oops19'>Oops19</a></li>
+	<li>License for '.package' files: <a href='https://tos.ea.com/legalapp/WEBTERMS/US/en/PC/'>Electronic Arts TOS for UGC</a></li>
+	<li>License for other media unless specified differently: <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a> unless the Electronic Arts TOS for UGC overrides it.</li>
+</ul>
+This allows you to use this mod and re-use the code even if you don't own The Sims 4.<br/>
+Have fun extending this mod and/or integrating it with your mods.<br/>
+<br/>
+Oops19 / o19 is not endorsed by or affiliated with Electronic Arts or its licensors.<br/>
+Game content and materials copyright Electronic Arts Inc. and its licensors.<br/>
+Trademarks are the property of their respective owners.<br/>
+<br/>
+<h3>TOS</h3>
+<ul>
+	<li>Please don't put it behind a paywall.</li>
+	<li>Please don't create mods which break with every TS4 update.</li>
+	<li>For simple tuning modifications use <a href='https://github.com/Oops19/TS4-PatchXML'>Patch-XML</a></li>
+	<li>or <a href='https://github.com/Oops19/TS4-LiveXML'>LiveXML</a>.</li>
+	<li>To check the XML structure of custom tunings use <a href='https://github.com/Oops19/TS4-VanillaLogs'>VanillaLogs</a>.</li>
+</ul>
+<br/>
+<br/>
+<br/>
+<h1>Addendum</h1>
+<br/>
+<h2>Game compatibility</h2>
+This mod has been tested with <i>The Sims 4</i> 1.112.519, S4CL 3.10, TS4Lib 0.3.36.<br/>
+It is expected to be compatible with many upcoming releases of TS4, S4CL and TS4Lib.<br/>
+<br/>
+<h2>Dependencies</h2>
+Download the ZIP file, not the sources.<br/>
+<ul>
+	<li><a href='../../releases/latest'>This Mod</a></li>
+	<li><a href='https://github.com/Oops19/TS4-Library/releases/latest'>TS4-Library</a></li>
+	<li><a href='https://github.com/ColonolNutty/Sims4CommunityLibrary/releases/latest'>S4CL</a></li>
+	<li><a href='https://www.ea.com/games/the-sims/the-sims-4'>The Sims 4</a></li>
+</ul>
+<br/>
+If not installed download and install TS4 and these mods.<br/>
+All are available for free.<br/>
+<br/>
+<h2>Removal of the mod</h2>
+The mod installation with unzip writes to a few directories.<br/>
+To remove this mod and all related files locate the files and folders and remove them:<br/>
+<ul>
+	<li>`The Sims 4/Mods/_o19_/$mod_name.*`</li>
+	<li>`The Sims 4/mod_data/_o19_/$mod_name/`</li>
+	<li>`The Sims 4/mod_documentation/_o19_/$mod_name/`</li>
+	<li>`The Sims 4/mod_sources/_o19_/$mod_name/`</li>
+</ul>
+<br/>
+To remove all of my mods locate these folders and remove them:<br/>
+<ul>
+	<li>`The Sims 4/Mods/_o19_/`</li>
+	<li>`The Sims 4/mod_data/_o19_/`</li>
+	<li>`The Sims 4/mod_documentation/_o19_/`</li>
+	<li>`The Sims 4/mod_sources/_o19_/`</li>
+</ul>
+<br/>
+<h2>Installation</h2>
+<ul>
+	<li>Locate the localized <i>The Sims 4</i> folder which contains the <i>Mods</i> folder.</li>
+	<li>Extract the ZIP file into this <i>The Sims 4</i> folder.</li>
+	<li>It will create the directories/files <i>Mods/_o19_/$mod_name.ts4script`, <i>Mods/_o19_/$mod_name.package`, <i>mod_data/$mod_name/*</i> and/or <i>mod_documentation/$mod_name/*</i> and/or <i>mod_sources/$mod_name/*`</li>
+	<li>CAS and build-buy UGC without scripts will create <i>Mods/o19/$mod_name.package`.</li>
+	<li>`mod_logs/$mod_name.txt</i> will be created as soon as data is logged.</li>
+	<li>`mod_documentation/$mod_name/</i> and/or <i>mod_sources/$mod_name/</i> are not required and can be deleted.</li>
+</ul>
+<br/>
+<h3>Manual Installation</h3>
+If you don't want to extract the ZIP file into <i>The Sims 4</i> folder you might want to read this.<br/>
+You can extract the ZIP file to a temporary directory and copy the folders manually.<br/>
+<ul>
+	<li>The files in <i>ZIP-File/mod_data</i> are usually required and should be extracted to <i>The Sims 4/mod_data`.</li>
+	<li>The files in <i>ZIP-File/mod_documentation</i> are for you to read it. They are not needed to use this mod.</li>
+	<li>The files in <i>ZIP-File/mod_sources</i> are not needed to use this mod.</li>
+	<li>The <i>Mods/_o19_/*.ts4script</i> files can be stored in a random folder within <i>Mods</i> or directly in <i>Mods</i>. I highly recommend to store it in <i>_o19_</i> so you know who created it.</li>
+</ul>
+<br/>
+<h2>Troubleshooting</h2>
+When installed properly this is not necessary at all.<br/>
+For manual installations check these things and make sure each question can be answered with 'yes'.<br/>
+<ul>
+	<li>Does 'The Sims 4' (localized to Die Sims 4, Les Sims 4, Los Sims 4, The Sims 4, ...) exist?</li>
+	<li>Does <i>The Sims 4</i> contain the folder <i>Mods`?</li>
+	<li>Does <i>Mods</i> contain the folder <i>_o19_`?</li>
+	<li>Does <i>_19_</i> contain <i>ts4lib.ts4script</i> and <i>ts4lib.package</i> files?</li>
+	<li>Does <i>_19_</i> contain <i>{mod_name}.ts4script</i> and/or <i>{mod_name}.package</i> files?</li>
+	<li>Does <i>The Sims 4</i> contain the folder <i>mod_data`?</li>
+	<li>Does <i>mod_data</i> contain the folder <i>{mod_name}`?</li>
+	<li>Does <i>{mod_name}</i> contain files or folders?</li>
+	<li>Does <i>The Sims 4</i> contain the <i>mod_logs</i> ?</li>
+	<li>Does <i>mod_logs</i> contain the file <i>Sims4CommunityLib_*_Messages.txt`?</li>
+	<li>Does <i>mod_logs</i> contain the file <i>TS4-Library_*_Messages.txt`?</li>
+	<li>Is this the most recent version or can it be updated?</li>
+	<li>Does <i>mod_logs</i> contain the file <i>{mod_name}_*_Messages.txt`?</li>
+	<li>Is this the most recent version or can it be updated?</li>
+	<li>Doesn't <i>The Sims 4</i> contain the file(s) <i>last_exception.txt</i>  and/or <i>last_exception*.txt</i> ?</li>
+	<li>Share the <i>The Sims 4/mod_logs/Sims4CommunityLib_*_Messages.txt</i> and <i>The Sims 4/mod_logs/{mod_name}_*_Messages.txt</i>  file.</li>
+</ul>
+<br/>
+<h2>Usage Tracking / Privacy</h2>
+This mod does not send any data to tracking servers. The code is open source, not obfuscated, and can be reviewed.<br/>
+<br/>
+Some log entries in the log file ('mod_logs' folder) may contain the local username, especially if files are not found (WARN, ERROR).<br/>
+<br/>
+<h2>External Links</h2>
+<a href='https://github.com/Oops19/'>Sources</a><br/>
+<a href='https://discord.gg/d8X9aQ3jbm'>Support</a><br/>
+<a href='https://www.patreon.com/o19'>Donations</a><br/>
+<br/>
+<h2>Copyright and License</h2>
+<ul>
+	<li>© 2020-2025 <a href='https://github.com/Oops19'>Oops19</a></li>
+	<li>License for '.package' files: <a href='https://tos.ea.com/legalapp/WEBTERMS/US/en/PC/'>Electronic Arts TOS for UGC</a></li>
+	<li>License for other media unless specified differently: <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a> unless the Electronic Arts TOS for UGC overrides it.</li>
+</ul>
+This allows you to use this mod and re-use the code even if you don't own The Sims 4.<br/>
+Have fun extending this mod and/or integrating it with your mods.<br/>
+<br/>
+Oops19 / o19 is not endorsed by or affiliated with Electronic Arts or its licensors.<br/>
+Game content and materials copyright Electronic Arts Inc. and its licensors.<br/>
+Trademarks are the property of their respective owners.<br/>
+<br/>
+<h3>TOS</h3>
+<ul>
+	<li>Please don't put it behind a paywall.</li>
+	<li>Please don't create mods which break with every TS4 update.</li>
+	<li>For simple tuning modifications use <a href='https://github.com/Oops19/TS4-PatchXML'>Patch-XML</a></li>
+	<li>or <a href='https://github.com/Oops19/TS4-LiveXML'>LiveXML</a>.</li>
+	<li>To check the XML structure of custom tunings use <a href='https://github.com/Oops19/TS4-VanillaLogs'>VanillaLogs</a>.</li>
+</ul>
+<br/>
